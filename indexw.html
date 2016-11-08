@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>百度舆情</title>
+	<link rel="stylesheet" href="css/jquery.fullPage.css">
+	<link rel="stylesheet" href="css/indexw.css">
+	<script src="js/jquery-1.8.3.min.js"></script>
+	<script src="js/jquery.fullPage.min.js"></script>
+</head>
+<body>
+	<!-- header -->
+	<header class="header">
+		<nav>
+			<a href="javascript:;" class="logo-a"><div class="logo"></div></a>
+			<ul class="left-u">
+				<li><a href="javascript:;">首页</a></li>
+				<li><a href="javascript:;">产品介绍</a></li>
+				<li><a href="javascript:;">用户版</a></li>
+			</ul>
+			<ul class="right-u">
+				<a href="javascript:;">手机客户端<i class="hot"></i></a>
+				<a href="javascript:;">百度司南</a>
+				<a href="javascript:;">联系我们</a>
+				<a href="javascript:;" id="color">申请试用</a>
+			</ul>
+		</nav>
+	</header>
+	<div id="dowebok">
+	<!-- 第一屏 -->
+	<section class="section active">
+       <div class="box1">
+       	  <div class="yun"></div>
+       	  <div class="mild"></div>
+       	  <div class="bottom"></div>
+       	  <div class="mask">
+       	  	<div class="touying">
+       	  		<div class="hill1"></div>
+       	  		<div class="hill2"></div>
+       	  		<div class="hill3"></div>
+       	  		<div class="ship" ></div>
+       	  	</div>
+       	  </div>
+       	  <div class="center">
+       	  <div class="center-c">
+       	  	<div class="lang"></div>
+       	  	<div class="feiji"></div>
+       	  </div>
+       	  </div>
+       	  <div class="xia"></div>
+       </div>
+	</section>
+    <!-- 第二屏 -->
+	<section class="section">
+      <div class="box2">
+      	<div class="center">
+      		<div class="title-2 title-1">
+      			<div class="title">
+      				<h3></h3>
+      				<div class="text">
+      					<h4>数据收集与处理</h4>
+      					<p>15年专业数据收集与语义分析技术积累<br>卓越极致，不断攀登</p>
+      				</div>
+      			</div>
+      		</div>
+      		<div class="right2"></div>
+      	</div>
+      	<div class="t1"></div>
+      	<div class="t2"></div>
+      	<div class="t3"></div>
+      	<div class="t4"></div>
+      	
+      	<div class="xia"></div>
+      </div>
+	</section>
+    <!-- 第三屏 -->
+	<section class="section">
+      <div class="box2 bb">
+      	<div class="center">
+      		<div class="title-2 title-1">
+      			<div class="title">
+      				<h3 id="h2"></h3>
+      				<div class="text">
+      					<h4>舆情分析逻辑与架构</h4>
+      					<p>声量诊断、传播分析、情感提炼、受众画像<br>有方法论，更有智慧</p>
+      				</div>
+      			</div>
+      		</div>
+      		<div class="right2 img2"></div>
+      	</div>
+      	<div class="t1"></div>
+      	<div class="t2"></div>
+      	<div class="t3"></div>
+      	<div class="t4"></div>
+      	
+      	<div class="xia"></div>
+      </div>
+	</section>
+	<!-- 第四屏 -->
+	<section class="section">
+      <div class="box2 bg3">
+      	<div class="center">
+      		<div class="title-2 title-1">
+      			<div class="title">
+      				<h3 id="h3"></h3>
+      				<div class="text">
+      					<h4>专业数据可视化</h4>
+      					<p>非凡的数据洞悉和可视化能力<br>精研数据，惊艳所见</p>
+      				</div>
+      			</div>
+      		</div>
+      		<div class="right2 img3"></div>
+      	</div>
+      	<div class="t1"></div>
+      	<div class="t2"></div>
+      	<div class="t3"></div>
+      	<div class="t4"></div>
+      	
+      	<!-- <div class="xia"></div> -->
+      </div>
+	</section>
+	</div>
+</body>
+<script>
+	$(function(){
+    $('#dowebok').fullpage({
+    	navigation:true,
+    	sectionsColor: ['rgb(63,176,238)', 'rgb(13,113,205)', 'rgb(73,193,121)', 'rgb(0,154,112)'],
+        // $.fn.fullpage.moveSectionDown();
+    })
+    // $('.xia').fullpage({
+    // 	$.fn.fullpage.moveSectionDown()
+    // })
+
+});
+</script>
+</html>
